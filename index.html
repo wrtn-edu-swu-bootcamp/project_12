@@ -188,15 +188,43 @@
             </div>
             
             <div class="form-group">
-                <label for="analysis">분석 방법</label>
+                <label for="analysis">분석 방법 (세부 선택)</label>
                 <select id="analysis" required>
                     <option value="">선택하세요</option>
-                    <option value="simple">단순 집계 (평균, 합계, 정렬 등)</option>
-                    <option value="regression">회귀분석 (선형, 다중)</option>
-                    <option value="classification">분류 (의사결정나무, 랜덤포레스트)</option>
-                    <option value="clustering">클러스터링 (K-means, 계층적)</option>
-                    <option value="deep_learning">딥러닝 (신경망)</option>
+                    
+                    <optgroup label="📊 단순 집계">
+                        <option value="agg_basic">기본 집계 (평균, 합계, 개수)</option>
+                        <option value="agg_groupby">그룹별 집계 (GROUP BY)</option>
+                        <option value="agg_pivot">피벗 테이블</option>
+                    </optgroup>
+                    
+                    <optgroup label="📈 회귀분석">
+                        <option value="reg_linear_simple">단순 선형 회귀</option>
+                        <option value="reg_linear_multiple">다중 선형 회귀</option>
+                        <option value="reg_ridge">릿지 회귀 (Ridge)</option>
+                        <option value="reg_polynomial">다항 회귀 (Polynomial)</option>
+                    </optgroup>
+                    
+                    <optgroup label="🎯 분류">
+                        <option value="clf_logistic">로지스틱 회귀</option>
+                        <option value="clf_tree">의사결정나무</option>
+                        <option value="clf_forest">랜덤 포레스트 (100 트리)</option>
+                        <option value="clf_svm">SVM (Support Vector Machine)</option>
+                    </optgroup>
+                    
+                    <optgroup label="🔍 클러스터링">
+                        <option value="clu_kmeans_small">K-means (k < 10)</option>
+                        <option value="clu_kmeans_large">K-means (k > 10)</option>
+                        <option value="clu_dbscan">DBSCAN</option>
+                        <option value="clu_hierarchical">계층적 클러스터링</option>
+                    </optgroup>
+                    
+                    <optgroup label="🧠 딥러닝">
+                        <option value="dl_simple">간단한 신경망 (2-3 레이어)</option>
+                        <option value="dl_deep">깊은 신경망 (5+ 레이어)</option>
+                    </optgroup>
                 </select>
+                <div class="input-hint">세부 방법을 선택하면 더 정확한 예측이 가능합니다</div>
             </div>
             
             <div class="form-group">
@@ -271,7 +299,7 @@
             ultra: { cpu: 2000, ram: 64, name: '최고사양' }
         };
         
-        // 계산 로직 (개선된 버전)
+        // 계산 로직 (세부 분석 방법 반영)
         function calculateEstimatedTime(rows, columns, analysis, tool, hardware = 'medium') {
             const BASE_TIME = 1; // 기본 1초
             
@@ -292,13 +320,34 @@
             // 열 수 영향 (제곱근 적용으로 비선형 증가)
             dataFactor *= (1 + Math.sqrt(columns) / 5);
             
-            // 분석 복잡도
+            // 세부 분석 방법별 복잡도 (시간 복잡도 기반)
             const analysisFactor = {
-                'simple': 1,
-                'regression': 3,
-                'classification': 5,
-                'clustering': 7,
-                'deep_learning': 15
+                // 단순 집계 - O(n)
+                'agg_basic': 0.8,           // 매우 빠름
+                'agg_groupby': 1.2,         // 그룹핑 오버헤드
+                'agg_pivot': 1.5,           // 피벗 변환
+                
+                // 회귀분석 - O(nm) ~ O(nm²)
+                'reg_linear_simple': 2,     // O(nm)
+                'reg_linear_multiple': 3,   // O(nm² + m³)
+                'reg_ridge': 4,             // 정규화 + 반복
+                'reg_polynomial': 6,        // 특성 확장
+                
+                // 분류 - O(nm log n) ~ O(n²m)
+                'clf_logistic': 3,          // 반복 최적화
+                'clf_tree': 4,              // O(nm log n)
+                'clf_forest': 8,            // 100 트리
+                'clf_svm': 12,              // O(n²m) ~ O(n³)
+                
+                // 클러스터링 - O(nkd) ~ O(n³)
+                'clu_kmeans_small': 5,      // k<10, 빠름
+                'clu_kmeans_large': 10,     // k>10, 느림
+                'clu_dbscan': 7,            // O(n log n)
+                'clu_hierarchical': 20,     // O(n²) ~ O(n³)
+                
+                // 딥러닝 - O(nmle) l=레이어, e=에포크
+                'dl_simple': 15,            // 2-3 레이어
+                'dl_deep': 30               // 5+ 레이어
             };
             
             // 툴 속도 (상대적 속도)
@@ -360,14 +409,35 @@
             }
         }
         
-        // 분석 방법 이름 가져오기
+        // 분석 방법 이름 가져오기 (세부 방법)
         function getAnalysisName(value) {
             const names = {
-                'simple': '단순 집계',
-                'regression': '회귀분석',
-                'classification': '분류',
-                'clustering': '클러스터링',
-                'deep_learning': '딥러닝'
+                // 단순 집계
+                'agg_basic': '기본 집계',
+                'agg_groupby': '그룹별 집계',
+                'agg_pivot': '피벗 테이블',
+                
+                // 회귀분석
+                'reg_linear_simple': '단순 선형 회귀',
+                'reg_linear_multiple': '다중 선형 회귀',
+                'reg_ridge': '릿지 회귀',
+                'reg_polynomial': '다항 회귀',
+                
+                // 분류
+                'clf_logistic': '로지스틱 회귀',
+                'clf_tree': '의사결정나무',
+                'clf_forest': '랜덤 포레스트',
+                'clf_svm': 'SVM',
+                
+                // 클러스터링
+                'clu_kmeans_small': 'K-means (소규모)',
+                'clu_kmeans_large': 'K-means (대규모)',
+                'clu_dbscan': 'DBSCAN',
+                'clu_hierarchical': '계층적 클러스터링',
+                
+                // 딥러닝
+                'dl_simple': '간단한 신경망',
+                'dl_deep': '깊은 신경망'
             };
             return names[value] || value;
         }
