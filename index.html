@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 분석 시간 예측기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .input-hint {
+            font-size: 12px;
+            color: #95a5a6;
+            margin-top: 5px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: transform 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .result {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 10px;
+            border: 2px solid #667eea30;
+            display: none;
+            animation: slideIn 0.5s;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .result.show {
+            display: block;
+        }
+        
+        .result-header {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        
+        .time-display {
+            font-size: 56px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .description {
+            text-align: center;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .breakdown {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .breakdown-label {
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #95a5a6;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⏱️ 데이터 분석 시간 예측기</h1>
+        <p class="subtitle">데이터 규모와 분석 방법을 입력하면 예상 소요 시간을 알려드립니다</p>
+        
+        <form id="estimationForm">
+            <div class="form-group">
+                <label for="rows">데이터 행 수 (Rows)</label>
+                <input type="number" id="rows" placeholder="예: 1000000" required min="1">
+                <div class="input-hint">분석할 데이터의 행(레코드) 수를 입력하세요</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="columns">데이터 열 수 (Columns)</label>
+                <input type="number" id="columns" placeholder="예: 20" required min="1">
+                <div class="input-hint">분석할 데이터의 열(필드) 수를 입력하세요</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="analysis">분석 방법</label>
+                <select id="analysis" required>
+                    <option value="">선택하세요</option>
+                    <option value="simple">단순 집계 (평균, 합계, 정렬 등)</option>
+                    <option value="regression">회귀분석 (선형, 다중)</option>
+                    <option value="classification">분류 (의사결정나무, 랜덤포레스트)</option>
+                    <option value="clustering">클러스터링 (K-means, 계층적)</option>
+                    <option value="deep_learning">딥러닝 (신경망)</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="tool">사용 툴</label>
+                <select id="tool" required>
+                    <option value="">선택하세요</option>
+                    <option value="python">Python (Pandas, Scikit-learn)</option>
+                    <option value="r">R (dplyr, caret)</option>
+                    <option value="sql">SQL (데이터베이스 쿼리)</option>
+                    <option value="excel">Excel (피벗테이블, 함수)</option>
+                </select>
+            </div>
+            
+            <button type="submit">🚀 시간 예측하기</button>
+        </form>
+        
+        <div id="result" class="result">
+            <h2 class="result-header">예상 소요 시간</h2>
+            <div class="time-display" id="timeDisplay">-</div>
+            <p class="description" id="description"></p>
+            
+            <div class="breakdown" id="breakdown">
+                <div class="breakdown-item">
+                    <span class="breakdown-label">데이터 로딩</span>
+                    <span id="loadingTime">-</span>
+                </div>
+                <div class="breakdown-item">
+                    <span class="breakdown-label">데이터 전처리</span>
+                    <span id="preprocessingTime">-</span>
+                </div>
+                <div class="breakdown-item">
+                    <span class="breakdown-label">분석 실행</span>
+                    <span id="analysisTime">-</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            💡 이 예측은 평균적인 하드웨어 환경을 기준으로 한 추정값입니다
+        </div>
+    </div>
+
+    <script>
+        // 계산 로직
+        function calculateEstimatedTime(rows, columns, analysis, tool) {
+            const BASE_TIME = 1; // 기본 1초
+            
+            // 데이터 크기 계수
+            let dataFactor = 1;
+            if (rows < 10000) {
+                dataFactor = 0.5;
+            } else if (rows < 100000) {
+                dataFactor = 1;
+            } else if (rows < 1000000) {
+                dataFactor = 5;
+            } else if (rows < 10000000) {
+                dataFactor = 20;
+            } else {
+                dataFactor = 50;
+            }
+            
+            // 열 수 영향 (열이 많을수록 느려짐)
+            dataFactor *= (1 + columns / 50);
+            
+            // 분석 복잡도
+            const analysisFactor = {
+                'simple': 1,
+                'regression': 3,
+                'classification': 5,
+                'clustering': 7,
+                'deep_learning': 15
+            };
+            
+            // 툴 속도 (상대적 속도, 낮을수록 빠름)
+            const toolFactor = {
+                'python': 1,
+                'r': 1.2,
+                'sql': 0.5,
+                'excel': 3
+            };
+            
+            // 최종 계산 (초 단위)
+            const totalSeconds = BASE_TIME * dataFactor * 
+                                analysisFactor[analysis] * 
+                                toolFactor[tool];
+            
+            // 단계별 시간 분해
+            const breakdown = {
+                loading: totalSeconds * 0.2,      // 20%
+                preprocessing: totalSeconds * 0.3, // 30%
+                analysis: totalSeconds * 0.5      // 50%
+            };
+            
+            return {
+                total: totalSeconds,
+                breakdown: breakdown
+            };
+        }
+        
+        // 시간을 읽기 좋은 형식으로 변환
+        function formatTime(seconds) {
+            if (seconds < 60) {
+                return `${Math.round(seconds)}초`;
+            } else if (seconds < 3600) {
+                const minutes = Math.round(seconds / 60 * 10) / 10;
+                return `${minutes}분`;
+            } else {
+                const hours = Math.round(seconds / 3600 * 10) / 10;
+                return `${hours}시간`;
+            }
+        }
+        
+        // 분석 방법 이름 가져오기
+        function getAnalysisName(value) {
+            const names = {
+                'simple': '단순 집계',
+                'regression': '회귀분석',
+                'classification': '분류',
+                'clustering': '클러스터링',
+                'deep_learning': '딥러닝'
+            };
+            return names[value] || value;
+        }
+        
+        // 툴 이름 가져오기
+        function getToolName(value) {
+            const names = {
+                'python': 'Python',
+                'r': 'R',
+                'sql': 'SQL',
+                'excel': 'Excel'
+            };
+            return names[value] || value;
+        }
+        
+        // 폼 제출 처리
+        document.getElementById('estimationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const rows = parseInt(document.getElementById('rows').value);
+            const columns = parseInt(document.getElementById('columns').value);
+            const analysis = document.getElementById('analysis').value;
+            const tool = document.getElementById('tool').value;
+            
+            const result = calculateEstimatedTime(rows, columns, analysis, tool);
+            
+            // 전체 시간 표시
+            document.getElementById('timeDisplay').textContent = formatTime(result.total);
+            
+            // 설명 생성
+            const analysisName = getAnalysisName(analysis);
+            const toolName = getToolName(tool);
+            document.getElementById('description').textContent = 
+                `${rows.toLocaleString()}행 × ${columns}열의 데이터를 ${toolName}로 ${analysisName}할 때 예상되는 시간입니다.`;
+            
+            // 단계별 시간 표시
+            document.getElementById('loadingTime').textContent = formatTime(result.breakdown.loading);
+            document.getElementById('preprocessingTime').textContent = formatTime(result.breakdown.preprocessing);
+            document.getElementById('analysisTime').textContent = formatTime(result.breakdown.analysis);
+            
+            // 결과 영역 표시
+            document.getElementById('result').classList.add('show');
+            
+            // 결과로 부드럽게 스크롤
+            document.getElementById('result').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+    </script>
+</body>
+</html>
