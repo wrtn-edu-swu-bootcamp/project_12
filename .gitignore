@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pyo
+ml_model.pkl
+.DS_Store

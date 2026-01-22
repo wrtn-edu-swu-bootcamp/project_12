@@ -1,0 +1,5762 @@
+[
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0018,
+    "loading_time": 0.0004,
+    "preprocessing_time": 0.0005,
+    "execution_time": 0.0009
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.001,
+    "loading_time": 0.0002,
+    "preprocessing_time": 0.0003,
+    "execution_time": 0.0005
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.001,
+    "loading_time": 0.0002,
+    "preprocessing_time": 0.0003,
+    "execution_time": 0.0005
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.001,
+    "loading_time": 0.0002,
+    "preprocessing_time": 0.0003,
+    "execution_time": 0.0005
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0196,
+    "loading_time": 0.0039,
+    "preprocessing_time": 0.0059,
+    "execution_time": 0.0098
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0054,
+    "loading_time": 0.0011,
+    "preprocessing_time": 0.0016,
+    "execution_time": 0.0027
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.002,
+    "loading_time": 0.0004,
+    "preprocessing_time": 0.0006,
+    "execution_time": 0.001
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.001,
+    "loading_time": 0.0002,
+    "preprocessing_time": 0.0003,
+    "execution_time": 0.0005
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0398,
+    "loading_time": 0.008,
+    "preprocessing_time": 0.0119,
+    "execution_time": 0.0199
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0106,
+    "loading_time": 0.0021,
+    "preprocessing_time": 0.0032,
+    "execution_time": 0.0053
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.004,
+    "loading_time": 0.0008,
+    "preprocessing_time": 0.0012,
+    "execution_time": 0.002
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0019,
+    "loading_time": 0.0004,
+    "preprocessing_time": 0.0006,
+    "execution_time": 0.001
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.3823,
+    "loading_time": 0.0765,
+    "preprocessing_time": 0.1147,
+    "execution_time": 0.1911
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1042,
+    "loading_time": 0.0208,
+    "preprocessing_time": 0.0313,
+    "execution_time": 0.0521
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0419,
+    "loading_time": 0.0084,
+    "preprocessing_time": 0.0126,
+    "execution_time": 0.0209
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0164,
+    "loading_time": 0.0033,
+    "preprocessing_time": 0.0049,
+    "execution_time": 0.0082
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.6839,
+    "loading_time": 0.1368,
+    "preprocessing_time": 0.2052,
+    "execution_time": 0.3419
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.18,
+    "loading_time": 0.036,
+    "preprocessing_time": 0.054,
+    "execution_time": 0.09
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.091,
+    "loading_time": 0.0182,
+    "preprocessing_time": 0.0273,
+    "execution_time": 0.0455
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0435,
+    "loading_time": 0.0087,
+    "preprocessing_time": 0.013,
+    "execution_time": 0.0217
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 6.588,
+    "loading_time": 1.3176,
+    "preprocessing_time": 1.9764,
+    "execution_time": 3.294
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.6739,
+    "loading_time": 0.3348,
+    "preprocessing_time": 0.5022,
+    "execution_time": 0.8369
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.6053,
+    "loading_time": 0.1211,
+    "preprocessing_time": 0.1816,
+    "execution_time": 0.3027
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2809,
+    "loading_time": 0.0562,
+    "preprocessing_time": 0.0843,
+    "execution_time": 0.1405
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 11.9269,
+    "loading_time": 2.3854,
+    "preprocessing_time": 3.5781,
+    "execution_time": 5.9634
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3.3383,
+    "loading_time": 0.6677,
+    "preprocessing_time": 1.0015,
+    "execution_time": 1.6692
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.106,
+    "loading_time": 0.2212,
+    "preprocessing_time": 0.3318,
+    "execution_time": 0.553
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.6723,
+    "loading_time": 0.1345,
+    "preprocessing_time": 0.2017,
+    "execution_time": 0.3361
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 21.4656,
+    "loading_time": 4.2931,
+    "preprocessing_time": 6.4397,
+    "execution_time": 10.7328
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5.6355,
+    "loading_time": 1.1271,
+    "preprocessing_time": 1.6906,
+    "execution_time": 2.8177
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.9403,
+    "loading_time": 0.3881,
+    "preprocessing_time": 0.5821,
+    "execution_time": 0.9701
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_basic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.0014,
+    "loading_time": 0.2003,
+    "preprocessing_time": 0.3004,
+    "execution_time": 0.5007
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.239552",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0131,
+    "loading_time": 0.0026,
+    "preprocessing_time": 0.0039,
+    "execution_time": 0.0065
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0034,
+    "loading_time": 0.0007,
+    "preprocessing_time": 0.001,
+    "execution_time": 0.0017
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0013,
+    "loading_time": 0.0003,
+    "preprocessing_time": 0.0004,
+    "execution_time": 0.0006
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.001,
+    "loading_time": 0.0002,
+    "preprocessing_time": 0.0003,
+    "execution_time": 0.0005
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.176,
+    "loading_time": 0.0352,
+    "preprocessing_time": 0.0528,
+    "execution_time": 0.088
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0403,
+    "loading_time": 0.0081,
+    "preprocessing_time": 0.0121,
+    "execution_time": 0.0201
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0175,
+    "loading_time": 0.0035,
+    "preprocessing_time": 0.0052,
+    "execution_time": 0.0087
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0091,
+    "loading_time": 0.0018,
+    "preprocessing_time": 0.0027,
+    "execution_time": 0.0045
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4036,
+    "loading_time": 0.0807,
+    "preprocessing_time": 0.1211,
+    "execution_time": 0.2018
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.097,
+    "loading_time": 0.0194,
+    "preprocessing_time": 0.0291,
+    "execution_time": 0.0485
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0335,
+    "loading_time": 0.0067,
+    "preprocessing_time": 0.0101,
+    "execution_time": 0.0168
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0178,
+    "loading_time": 0.0036,
+    "preprocessing_time": 0.0053,
+    "execution_time": 0.0089
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3.5336,
+    "loading_time": 0.7067,
+    "preprocessing_time": 1.0601,
+    "execution_time": 1.7668
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.1325,
+    "loading_time": 0.2265,
+    "preprocessing_time": 0.3398,
+    "execution_time": 0.5663
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4836,
+    "loading_time": 0.0967,
+    "preprocessing_time": 0.1451,
+    "execution_time": 0.2418
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1831,
+    "loading_time": 0.0366,
+    "preprocessing_time": 0.0549,
+    "execution_time": 0.0915
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 8.9433,
+    "loading_time": 1.7887,
+    "preprocessing_time": 2.683,
+    "execution_time": 4.4716
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.3476,
+    "loading_time": 0.4695,
+    "preprocessing_time": 0.7043,
+    "execution_time": 1.1738
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.7664,
+    "loading_time": 0.1533,
+    "preprocessing_time": 0.2299,
+    "execution_time": 0.3832
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4889,
+    "loading_time": 0.0978,
+    "preprocessing_time": 0.1467,
+    "execution_time": 0.2445
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 79.0749,
+    "loading_time": 15.815,
+    "preprocessing_time": 23.7225,
+    "execution_time": 39.5374
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 21.9725,
+    "loading_time": 4.3945,
+    "preprocessing_time": 6.5917,
+    "execution_time": 10.9862
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9.3994,
+    "loading_time": 1.8799,
+    "preprocessing_time": 2.8198,
+    "execution_time": 4.6997
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.0245,
+    "loading_time": 0.8049,
+    "preprocessing_time": 1.2073,
+    "execution_time": 2.0122
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 135.1794,
+    "loading_time": 27.0359,
+    "preprocessing_time": 40.5538,
+    "execution_time": 67.5897
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 42.9785,
+    "loading_time": 8.5957,
+    "preprocessing_time": 12.8935,
+    "execution_time": 21.4892
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 17.811,
+    "loading_time": 3.5622,
+    "preprocessing_time": 5.3433,
+    "execution_time": 8.9055
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9.6603,
+    "loading_time": 1.9321,
+    "preprocessing_time": 2.8981,
+    "execution_time": 4.8302
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 289.5337,
+    "loading_time": 57.9067,
+    "preprocessing_time": 86.8601,
+    "execution_time": 144.7669
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 82.7756,
+    "loading_time": 16.5551,
+    "preprocessing_time": 24.8327,
+    "execution_time": 41.3878
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 30.0155,
+    "loading_time": 6.0031,
+    "preprocessing_time": 9.0047,
+    "execution_time": 15.0078
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "agg_groupby",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 15.2061,
+    "loading_time": 3.0412,
+    "preprocessing_time": 4.5618,
+    "execution_time": 7.6031
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0217,
+    "loading_time": 0.0043,
+    "preprocessing_time": 0.0065,
+    "execution_time": 0.0108
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0044,
+    "loading_time": 0.0009,
+    "preprocessing_time": 0.0013,
+    "execution_time": 0.0022
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0021,
+    "loading_time": 0.0004,
+    "preprocessing_time": 0.0006,
+    "execution_time": 0.0011
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.001,
+    "loading_time": 0.0002,
+    "preprocessing_time": 0.0003,
+    "execution_time": 0.0005
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2139,
+    "loading_time": 0.0428,
+    "preprocessing_time": 0.0642,
+    "execution_time": 0.107
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.055,
+    "loading_time": 0.011,
+    "preprocessing_time": 0.0165,
+    "execution_time": 0.0275
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0188,
+    "loading_time": 0.0038,
+    "preprocessing_time": 0.0056,
+    "execution_time": 0.0094
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0115,
+    "loading_time": 0.0023,
+    "preprocessing_time": 0.0034,
+    "execution_time": 0.0057
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.366,
+    "loading_time": 0.0732,
+    "preprocessing_time": 0.1098,
+    "execution_time": 0.183
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0889,
+    "loading_time": 0.0178,
+    "preprocessing_time": 0.0267,
+    "execution_time": 0.0445
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0421,
+    "loading_time": 0.0084,
+    "preprocessing_time": 0.0126,
+    "execution_time": 0.021
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0161,
+    "loading_time": 0.0032,
+    "preprocessing_time": 0.0048,
+    "execution_time": 0.008
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.3276,
+    "loading_time": 0.8655,
+    "preprocessing_time": 1.2983,
+    "execution_time": 2.1638
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.8108,
+    "loading_time": 0.1622,
+    "preprocessing_time": 0.2432,
+    "execution_time": 0.4054
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.3911,
+    "loading_time": 0.0782,
+    "preprocessing_time": 0.1173,
+    "execution_time": 0.1955
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.178,
+    "loading_time": 0.0356,
+    "preprocessing_time": 0.0534,
+    "execution_time": 0.089
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 7.3254,
+    "loading_time": 1.4651,
+    "preprocessing_time": 2.1976,
+    "execution_time": 3.6627
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.1808,
+    "loading_time": 0.4362,
+    "preprocessing_time": 0.6542,
+    "execution_time": 1.0904
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.6692,
+    "loading_time": 0.1338,
+    "preprocessing_time": 0.2008,
+    "execution_time": 0.3346
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.3598,
+    "loading_time": 0.072,
+    "preprocessing_time": 0.1079,
+    "execution_time": 0.1799
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 60.4307,
+    "loading_time": 12.0861,
+    "preprocessing_time": 18.1292,
+    "execution_time": 30.2154
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 14.3223,
+    "loading_time": 2.8645,
+    "preprocessing_time": 4.2967,
+    "execution_time": 7.1612
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 6.1599,
+    "loading_time": 1.232,
+    "preprocessing_time": 1.848,
+    "execution_time": 3.0799
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3.2861,
+    "loading_time": 0.6572,
+    "preprocessing_time": 0.9858,
+    "execution_time": 1.6431
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 126.3659,
+    "loading_time": 25.2732,
+    "preprocessing_time": 37.9098,
+    "execution_time": 63.183
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 30.9363,
+    "loading_time": 6.1873,
+    "preprocessing_time": 9.2809,
+    "execution_time": 15.4682
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 11.6111,
+    "loading_time": 2.3222,
+    "preprocessing_time": 3.4833,
+    "execution_time": 5.8055
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 6.6803,
+    "loading_time": 1.3361,
+    "preprocessing_time": 2.0041,
+    "execution_time": 3.3401
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 191.8795,
+    "loading_time": 38.3759,
+    "preprocessing_time": 57.5638,
+    "execution_time": 95.9397
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 50.2619,
+    "loading_time": 10.0524,
+    "preprocessing_time": 15.0786,
+    "execution_time": 25.1309
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 18.5214,
+    "loading_time": 3.7043,
+    "preprocessing_time": 5.5564,
+    "execution_time": 9.2607
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_simple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9.2308,
+    "loading_time": 1.8462,
+    "preprocessing_time": 2.7693,
+    "execution_time": 4.6154
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0944,
+    "loading_time": 0.0189,
+    "preprocessing_time": 0.0283,
+    "execution_time": 0.0472
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.025,
+    "loading_time": 0.005,
+    "preprocessing_time": 0.0075,
+    "execution_time": 0.0125
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0088,
+    "loading_time": 0.0018,
+    "preprocessing_time": 0.0026,
+    "execution_time": 0.0044
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0059,
+    "loading_time": 0.0012,
+    "preprocessing_time": 0.0018,
+    "execution_time": 0.003
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.1354,
+    "loading_time": 0.4271,
+    "preprocessing_time": 0.6406,
+    "execution_time": 1.0677
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.5628,
+    "loading_time": 0.1126,
+    "preprocessing_time": 0.1688,
+    "execution_time": 0.2814
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1993,
+    "loading_time": 0.0399,
+    "preprocessing_time": 0.0598,
+    "execution_time": 0.0997
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1051,
+    "loading_time": 0.021,
+    "preprocessing_time": 0.0315,
+    "execution_time": 0.0526
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.4186,
+    "loading_time": 0.8837,
+    "preprocessing_time": 1.3256,
+    "execution_time": 2.2093
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.0057,
+    "loading_time": 0.2011,
+    "preprocessing_time": 0.3017,
+    "execution_time": 0.5029
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4269,
+    "loading_time": 0.0854,
+    "preprocessing_time": 0.1281,
+    "execution_time": 0.2135
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2057,
+    "loading_time": 0.0411,
+    "preprocessing_time": 0.0617,
+    "execution_time": 0.1028
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 91.8727,
+    "loading_time": 18.3745,
+    "preprocessing_time": 27.5618,
+    "execution_time": 45.9363
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 24.116,
+    "loading_time": 4.8232,
+    "preprocessing_time": 7.2348,
+    "execution_time": 12.058
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 7.7245,
+    "loading_time": 1.5449,
+    "preprocessing_time": 2.3174,
+    "execution_time": 3.8623
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.2017,
+    "loading_time": 0.8403,
+    "preprocessing_time": 1.2605,
+    "execution_time": 2.1009
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 160.2371,
+    "loading_time": 32.0474,
+    "preprocessing_time": 48.0711,
+    "execution_time": 80.1186
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 36.0784,
+    "loading_time": 7.2157,
+    "preprocessing_time": 10.8235,
+    "execution_time": 18.0392
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 15.0087,
+    "loading_time": 3.0017,
+    "preprocessing_time": 4.5026,
+    "execution_time": 7.5044
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 7.9781,
+    "loading_time": 1.5956,
+    "preprocessing_time": 2.3934,
+    "execution_time": 3.9891
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1950.2208,
+    "loading_time": 390.0442,
+    "preprocessing_time": 585.0662,
+    "execution_time": 975.1104
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 471.0508,
+    "loading_time": 94.2102,
+    "preprocessing_time": 141.3152,
+    "execution_time": 235.5254
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 159.0077,
+    "loading_time": 31.8015,
+    "preprocessing_time": 47.7023,
+    "execution_time": 79.5039
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 81.1038,
+    "loading_time": 16.2208,
+    "preprocessing_time": 24.3311,
+    "execution_time": 40.5519
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4105.1214,
+    "loading_time": 821.0243,
+    "preprocessing_time": 1231.5364,
+    "execution_time": 2052.5607
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 890.3027,
+    "loading_time": 178.0605,
+    "preprocessing_time": 267.0908,
+    "execution_time": 445.1514
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 330.3776,
+    "loading_time": 66.0755,
+    "preprocessing_time": 99.1133,
+    "execution_time": 165.1888
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 155.9562,
+    "loading_time": 31.1912,
+    "preprocessing_time": 46.7868,
+    "execution_time": 77.9781
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.240948",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 12619.7033,
+    "loading_time": 2523.9407,
+    "preprocessing_time": 3785.911,
+    "execution_time": 6309.8516
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2272.89,
+    "loading_time": 454.578,
+    "preprocessing_time": 681.867,
+    "execution_time": 1136.445
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 960.737,
+    "loading_time": 192.1474,
+    "preprocessing_time": 288.2211,
+    "execution_time": 480.3685
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_linear_multiple",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 544.1702,
+    "loading_time": 108.834,
+    "preprocessing_time": 163.2511,
+    "execution_time": 272.0851
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1055,
+    "loading_time": 0.0211,
+    "preprocessing_time": 0.0317,
+    "execution_time": 0.0528
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0268,
+    "loading_time": 0.0054,
+    "preprocessing_time": 0.008,
+    "execution_time": 0.0134
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0127,
+    "loading_time": 0.0025,
+    "preprocessing_time": 0.0038,
+    "execution_time": 0.0064
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0056,
+    "loading_time": 0.0011,
+    "preprocessing_time": 0.0017,
+    "execution_time": 0.0028
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.5974,
+    "loading_time": 0.5195,
+    "preprocessing_time": 0.7792,
+    "execution_time": 1.2987
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.6422,
+    "loading_time": 0.1284,
+    "preprocessing_time": 0.1927,
+    "execution_time": 0.3211
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2515,
+    "loading_time": 0.0503,
+    "preprocessing_time": 0.0754,
+    "execution_time": 0.1257
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1404,
+    "loading_time": 0.0281,
+    "preprocessing_time": 0.0421,
+    "execution_time": 0.0702
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.0317,
+    "loading_time": 0.8063,
+    "preprocessing_time": 1.2095,
+    "execution_time": 2.0158
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.3516,
+    "loading_time": 0.2703,
+    "preprocessing_time": 0.4055,
+    "execution_time": 0.6758
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4839,
+    "loading_time": 0.0968,
+    "preprocessing_time": 0.1452,
+    "execution_time": 0.2419
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2202,
+    "loading_time": 0.044,
+    "preprocessing_time": 0.0661,
+    "execution_time": 0.1101
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 86.6015,
+    "loading_time": 17.3203,
+    "preprocessing_time": 25.9804,
+    "execution_time": 43.3007
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 21.3868,
+    "loading_time": 4.2774,
+    "preprocessing_time": 6.416,
+    "execution_time": 10.6934
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9.5089,
+    "loading_time": 1.9018,
+    "preprocessing_time": 2.8527,
+    "execution_time": 4.7544
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5.0658,
+    "loading_time": 1.0132,
+    "preprocessing_time": 1.5197,
+    "execution_time": 2.5329
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 186.3727,
+    "loading_time": 37.2745,
+    "preprocessing_time": 55.9118,
+    "execution_time": 93.1864
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 42.5332,
+    "loading_time": 8.5066,
+    "preprocessing_time": 12.76,
+    "execution_time": 21.2666
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 15.7456,
+    "loading_time": 3.1491,
+    "preprocessing_time": 4.7237,
+    "execution_time": 7.8728
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 10.1725,
+    "loading_time": 2.0345,
+    "preprocessing_time": 3.0518,
+    "execution_time": 5.0863
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2087.7094,
+    "loading_time": 417.5419,
+    "preprocessing_time": 626.3128,
+    "execution_time": 1043.8547
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 470.2384,
+    "loading_time": 94.0477,
+    "preprocessing_time": 141.0715,
+    "execution_time": 235.1192
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 247.5322,
+    "loading_time": 49.5064,
+    "preprocessing_time": 74.2597,
+    "execution_time": 123.7661
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 98.836,
+    "loading_time": 19.7672,
+    "preprocessing_time": 29.6508,
+    "execution_time": 49.418
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3764.3695,
+    "loading_time": 752.8739,
+    "preprocessing_time": 1129.3109,
+    "execution_time": 1882.1848
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 937.6928,
+    "loading_time": 187.5386,
+    "preprocessing_time": 281.3079,
+    "execution_time": 468.8464
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 385.992,
+    "loading_time": 77.1984,
+    "preprocessing_time": 115.7976,
+    "execution_time": 192.996
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 222.5349,
+    "loading_time": 44.507,
+    "preprocessing_time": 66.7605,
+    "execution_time": 111.2675
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 12651.0651,
+    "loading_time": 2530.213,
+    "preprocessing_time": 3795.3195,
+    "execution_time": 6325.5326
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2814.7113,
+    "loading_time": 562.9423,
+    "preprocessing_time": 844.4134,
+    "execution_time": 1407.3557
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1144.1776,
+    "loading_time": 228.8355,
+    "preprocessing_time": 343.2533,
+    "execution_time": 572.0888
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "reg_ridge",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 646.8504,
+    "loading_time": 129.3701,
+    "preprocessing_time": 194.0551,
+    "execution_time": 323.4252
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.2883,
+    "loading_time": 0.4577,
+    "preprocessing_time": 0.6865,
+    "execution_time": 1.1441
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4792,
+    "loading_time": 0.0958,
+    "preprocessing_time": 0.1438,
+    "execution_time": 0.2396
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2271,
+    "loading_time": 0.0454,
+    "preprocessing_time": 0.0681,
+    "execution_time": 0.1135
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0964,
+    "loading_time": 0.0193,
+    "preprocessing_time": 0.0289,
+    "execution_time": 0.0482
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 23.4768,
+    "loading_time": 4.6954,
+    "preprocessing_time": 7.043,
+    "execution_time": 11.7384
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5.24,
+    "loading_time": 1.048,
+    "preprocessing_time": 1.572,
+    "execution_time": 2.62
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.1465,
+    "loading_time": 0.4293,
+    "preprocessing_time": 0.644,
+    "execution_time": 1.0733
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.0044,
+    "loading_time": 0.2009,
+    "preprocessing_time": 0.3013,
+    "execution_time": 0.5022
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 41.6166,
+    "loading_time": 8.3233,
+    "preprocessing_time": 12.485,
+    "execution_time": 20.8083
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 11.621,
+    "loading_time": 2.3242,
+    "preprocessing_time": 3.4863,
+    "execution_time": 5.8105
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.7647,
+    "loading_time": 0.9529,
+    "preprocessing_time": 1.4294,
+    "execution_time": 2.3824
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.7887,
+    "loading_time": 0.3577,
+    "preprocessing_time": 0.5366,
+    "execution_time": 0.8944
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 420.0113,
+    "loading_time": 84.0023,
+    "preprocessing_time": 126.0034,
+    "execution_time": 210.0057
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 91.3336,
+    "loading_time": 18.2667,
+    "preprocessing_time": 27.4001,
+    "execution_time": 45.6668
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 36.6868,
+    "loading_time": 7.3374,
+    "preprocessing_time": 11.006,
+    "execution_time": 18.3434
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 22.4969,
+    "loading_time": 4.4994,
+    "preprocessing_time": 6.7491,
+    "execution_time": 11.2484
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 868.9102,
+    "loading_time": 173.782,
+    "preprocessing_time": 260.6731,
+    "execution_time": 434.4551
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 166.2188,
+    "loading_time": 33.2438,
+    "preprocessing_time": 49.8656,
+    "execution_time": 83.1094
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 79.8472,
+    "loading_time": 15.9694,
+    "preprocessing_time": 23.9542,
+    "execution_time": 39.9236
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 42.6953,
+    "loading_time": 8.5391,
+    "preprocessing_time": 12.8086,
+    "execution_time": 21.3477
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 7465.7306,
+    "loading_time": 1493.1461,
+    "preprocessing_time": 2239.7192,
+    "execution_time": 3732.8653
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1381.9616,
+    "loading_time": 276.3923,
+    "preprocessing_time": 414.5885,
+    "execution_time": 690.9808
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 560.6419,
+    "loading_time": 112.1284,
+    "preprocessing_time": 168.1926,
+    "execution_time": 280.321
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 309.2566,
+    "loading_time": 61.8513,
+    "preprocessing_time": 92.777,
+    "execution_time": 154.6283
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 12584.0034,
+    "loading_time": 2516.8007,
+    "preprocessing_time": 3775.201,
+    "execution_time": 6292.0017
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2495.3216,
+    "loading_time": 499.0643,
+    "preprocessing_time": 748.5965,
+    "execution_time": 1247.6608
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1298.9366,
+    "loading_time": 259.7873,
+    "preprocessing_time": 389.681,
+    "execution_time": 649.4683
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 635.2969,
+    "loading_time": 127.0594,
+    "preprocessing_time": 190.5891,
+    "execution_time": 317.6484
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 25087.0732,
+    "loading_time": 5017.4146,
+    "preprocessing_time": 7526.122,
+    "execution_time": 12543.5366
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4372.8742,
+    "loading_time": 874.5748,
+    "preprocessing_time": 1311.8623,
+    "execution_time": 2186.4371
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2171.0269,
+    "loading_time": 434.2054,
+    "preprocessing_time": 651.3081,
+    "execution_time": 1085.5134
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_logistic",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 957.9319,
+    "loading_time": 191.5864,
+    "preprocessing_time": 287.3796,
+    "execution_time": 478.966
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2775,
+    "loading_time": 0.0555,
+    "preprocessing_time": 0.0832,
+    "execution_time": 0.1387
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0791,
+    "loading_time": 0.0158,
+    "preprocessing_time": 0.0237,
+    "execution_time": 0.0396
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0252,
+    "loading_time": 0.005,
+    "preprocessing_time": 0.0076,
+    "execution_time": 0.0126
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.0135,
+    "loading_time": 0.0027,
+    "preprocessing_time": 0.004,
+    "execution_time": 0.0067
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3.504,
+    "loading_time": 0.7008,
+    "preprocessing_time": 1.0512,
+    "execution_time": 1.752
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.7416,
+    "loading_time": 0.1483,
+    "preprocessing_time": 0.2225,
+    "execution_time": 0.3708
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.2838,
+    "loading_time": 0.0568,
+    "preprocessing_time": 0.0852,
+    "execution_time": 0.1419
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.1807,
+    "loading_time": 0.0361,
+    "preprocessing_time": 0.0542,
+    "execution_time": 0.0903
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 7.3864,
+    "loading_time": 1.4773,
+    "preprocessing_time": 2.2159,
+    "execution_time": 3.6932
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.9797,
+    "loading_time": 0.3959,
+    "preprocessing_time": 0.5939,
+    "execution_time": 0.9899
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.6548,
+    "loading_time": 0.131,
+    "preprocessing_time": 0.1964,
+    "execution_time": 0.3274
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.3108,
+    "loading_time": 0.0622,
+    "preprocessing_time": 0.0932,
+    "execution_time": 0.1554
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 95.1741,
+    "loading_time": 19.0348,
+    "preprocessing_time": 28.5522,
+    "execution_time": 47.5871
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 19.7181,
+    "loading_time": 3.9436,
+    "preprocessing_time": 5.9154,
+    "execution_time": 9.859
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 8.9679,
+    "loading_time": 1.7936,
+    "preprocessing_time": 2.6904,
+    "execution_time": 4.484
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3.8343,
+    "loading_time": 0.7669,
+    "preprocessing_time": 1.1503,
+    "execution_time": 1.9172
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 202.3332,
+    "loading_time": 40.4666,
+    "preprocessing_time": 60.7,
+    "execution_time": 101.1666
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 45.3457,
+    "loading_time": 9.0691,
+    "preprocessing_time": 13.6037,
+    "execution_time": 22.6729
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 18.8945,
+    "loading_time": 3.7789,
+    "preprocessing_time": 5.6684,
+    "execution_time": 9.4473
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9.6049,
+    "loading_time": 1.921,
+    "preprocessing_time": 2.8815,
+    "execution_time": 4.8024
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1318.8751,
+    "loading_time": 263.775,
+    "preprocessing_time": 395.6625,
+    "execution_time": 659.4375
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 329.2589,
+    "loading_time": 65.8518,
+    "preprocessing_time": 98.7777,
+    "execution_time": 164.6294
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 161.8595,
+    "loading_time": 32.3719,
+    "preprocessing_time": 48.5578,
+    "execution_time": 80.9297
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 66.3858,
+    "loading_time": 13.2772,
+    "preprocessing_time": 19.9158,
+    "execution_time": 33.1929
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3408.2596,
+    "loading_time": 681.6519,
+    "preprocessing_time": 1022.4779,
+    "execution_time": 1704.1298
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 890.7401,
+    "loading_time": 178.148,
+    "preprocessing_time": 267.222,
+    "execution_time": 445.37
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 339.606,
+    "loading_time": 67.9212,
+    "preprocessing_time": 101.8818,
+    "execution_time": 169.803
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 154.0312,
+    "loading_time": 30.8062,
+    "preprocessing_time": 46.2094,
+    "execution_time": 77.0156
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 6081.4688,
+    "loading_time": 1216.2938,
+    "preprocessing_time": 1824.4406,
+    "execution_time": 3040.7344
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1553.6625,
+    "loading_time": 310.7325,
+    "preprocessing_time": 466.0987,
+    "execution_time": 776.8312
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 603.1048,
+    "loading_time": 120.621,
+    "preprocessing_time": 180.9314,
+    "execution_time": 301.5524
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_tree",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 312.4897,
+    "loading_time": 62.4979,
+    "preprocessing_time": 93.7469,
+    "execution_time": 156.2448
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 25.1999,
+    "loading_time": 5.04,
+    "preprocessing_time": 7.56,
+    "execution_time": 12.5999
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 6.2749,
+    "loading_time": 1.255,
+    "preprocessing_time": 1.8825,
+    "execution_time": 3.1375
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.241947",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.883,
+    "loading_time": 0.5766,
+    "preprocessing_time": 0.8649,
+    "execution_time": 1.4415
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.1793,
+    "loading_time": 0.2359,
+    "preprocessing_time": 0.3538,
+    "execution_time": 0.5897
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 347.3361,
+    "loading_time": 69.4672,
+    "preprocessing_time": 104.2008,
+    "execution_time": 173.6681
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 81.3399,
+    "loading_time": 16.268,
+    "preprocessing_time": 24.402,
+    "execution_time": 40.67
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 34.5286,
+    "loading_time": 6.9057,
+    "preprocessing_time": 10.3586,
+    "execution_time": 17.2643
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 17.9453,
+    "loading_time": 3.5891,
+    "preprocessing_time": 5.3836,
+    "execution_time": 8.9726
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 657.4175,
+    "loading_time": 131.4835,
+    "preprocessing_time": 197.2253,
+    "execution_time": 328.7088
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 161.9016,
+    "loading_time": 32.3803,
+    "preprocessing_time": 48.5705,
+    "execution_time": 80.9508
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 61.2777,
+    "loading_time": 12.2555,
+    "preprocessing_time": 18.3833,
+    "execution_time": 30.6388
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 37.2276,
+    "loading_time": 7.4455,
+    "preprocessing_time": 11.1683,
+    "execution_time": 18.6138
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9005.2426,
+    "loading_time": 1801.0485,
+    "preprocessing_time": 2701.5728,
+    "execution_time": 4502.6213
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1888.7529,
+    "loading_time": 377.7506,
+    "preprocessing_time": 566.6259,
+    "execution_time": 944.3765
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 956.8573,
+    "loading_time": 191.3715,
+    "preprocessing_time": 287.0572,
+    "execution_time": 478.4286
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 444.665,
+    "loading_time": 88.933,
+    "preprocessing_time": 133.3995,
+    "execution_time": 222.3325
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 22730.2672,
+    "loading_time": 4546.0534,
+    "preprocessing_time": 6819.0801,
+    "execution_time": 11365.1336
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5050.045,
+    "loading_time": 1010.009,
+    "preprocessing_time": 1515.0135,
+    "execution_time": 2525.0225
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1902.3439,
+    "loading_time": 380.4688,
+    "preprocessing_time": 570.7032,
+    "execution_time": 951.172
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 831.964,
+    "loading_time": 166.3928,
+    "preprocessing_time": 249.5892,
+    "execution_time": 415.982
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 139819.4432,
+    "loading_time": 27963.8886,
+    "preprocessing_time": 41945.833,
+    "execution_time": 69909.7216
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 36770.1186,
+    "loading_time": 7354.0237,
+    "preprocessing_time": 11031.0356,
+    "execution_time": 18385.0593
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 15819.0805,
+    "loading_time": 3163.8161,
+    "preprocessing_time": 4745.7241,
+    "execution_time": 7909.5402
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 8376.8168,
+    "loading_time": 1675.3634,
+    "preprocessing_time": 2513.045,
+    "execution_time": 4188.4084
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 312933.4706,
+    "loading_time": 62586.6941,
+    "preprocessing_time": 93880.0412,
+    "execution_time": 156466.7353
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 77784.0253,
+    "loading_time": 15556.8051,
+    "preprocessing_time": 23335.2076,
+    "execution_time": 38892.0126
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 33270.2806,
+    "loading_time": 6654.0561,
+    "preprocessing_time": 9981.0842,
+    "execution_time": 16635.1403
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 17241.5568,
+    "loading_time": 3448.3114,
+    "preprocessing_time": 5172.4671,
+    "execution_time": 8620.7784
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 514436.5577,
+    "loading_time": 102887.3115,
+    "preprocessing_time": 154330.9673,
+    "execution_time": 257218.2789
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 141541.1685,
+    "loading_time": 28308.2337,
+    "preprocessing_time": 42462.3506,
+    "execution_time": 70770.5843
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 54306.7943,
+    "loading_time": 10861.3589,
+    "preprocessing_time": 16292.0383,
+    "execution_time": 27153.3971
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clf_forest",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 29693.8188,
+    "loading_time": 5938.7638,
+    "preprocessing_time": 8908.1456,
+    "execution_time": 14846.9094
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 10.034,
+    "loading_time": 2.0068,
+    "preprocessing_time": 3.0102,
+    "execution_time": 5.017
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2.6325,
+    "loading_time": 0.5265,
+    "preprocessing_time": 0.7898,
+    "execution_time": 1.3163
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.0155,
+    "loading_time": 0.2031,
+    "preprocessing_time": 0.3046,
+    "execution_time": 0.5077
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 0.4818,
+    "loading_time": 0.0964,
+    "preprocessing_time": 0.1445,
+    "execution_time": 0.2409
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 90.3244,
+    "loading_time": 18.0649,
+    "preprocessing_time": 27.0973,
+    "execution_time": 45.1622
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 23.5164,
+    "loading_time": 4.7033,
+    "preprocessing_time": 7.0549,
+    "execution_time": 11.7582
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9.7217,
+    "loading_time": 1.9443,
+    "preprocessing_time": 2.9165,
+    "execution_time": 4.8608
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 4.9628,
+    "loading_time": 0.9926,
+    "preprocessing_time": 1.4888,
+    "execution_time": 2.4814
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 190.0169,
+    "loading_time": 38.0034,
+    "preprocessing_time": 57.0051,
+    "execution_time": 95.0085
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 46.2838,
+    "loading_time": 9.2568,
+    "preprocessing_time": 13.8851,
+    "execution_time": 23.1419
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 21.6932,
+    "loading_time": 4.3386,
+    "preprocessing_time": 6.508,
+    "execution_time": 10.8466
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 11.5413,
+    "loading_time": 2.3083,
+    "preprocessing_time": 3.4624,
+    "execution_time": 5.7706
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 2172.9454,
+    "loading_time": 434.5891,
+    "preprocessing_time": 651.8836,
+    "execution_time": 1086.4727
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 513.9164,
+    "loading_time": 102.7833,
+    "preprocessing_time": 154.1749,
+    "execution_time": 256.9582
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 166.9528,
+    "loading_time": 33.3906,
+    "preprocessing_time": 50.0858,
+    "execution_time": 83.4764
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 101.2435,
+    "loading_time": 20.2487,
+    "preprocessing_time": 30.3731,
+    "execution_time": 50.6218
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3878.7285,
+    "loading_time": 775.7457,
+    "preprocessing_time": 1163.6186,
+    "execution_time": 1939.3643
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 930.8904,
+    "loading_time": 186.1781,
+    "preprocessing_time": 279.2671,
+    "execution_time": 465.4452
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 384.4045,
+    "loading_time": 76.8809,
+    "preprocessing_time": 115.3213,
+    "execution_time": 192.2022
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 186.6988,
+    "loading_time": 37.3398,
+    "preprocessing_time": 56.0096,
+    "execution_time": 93.3494
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 25115.166,
+    "loading_time": 5023.0332,
+    "preprocessing_time": 7534.5498,
+    "execution_time": 12557.583
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 7948.9652,
+    "loading_time": 1589.793,
+    "preprocessing_time": 2384.6896,
+    "execution_time": 3974.4826
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3191.0831,
+    "loading_time": 638.2166,
+    "preprocessing_time": 957.3249,
+    "execution_time": 1595.5415
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1344.2589,
+    "loading_time": 268.8518,
+    "preprocessing_time": 403.2777,
+    "execution_time": 672.1295
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 60195.5854,
+    "loading_time": 12039.1171,
+    "preprocessing_time": 18058.6756,
+    "execution_time": 30097.7927
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 17450.7522,
+    "loading_time": 3490.1504,
+    "preprocessing_time": 5235.2257,
+    "execution_time": 8725.3761
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5387.9843,
+    "loading_time": 1077.5969,
+    "preprocessing_time": 1616.3953,
+    "execution_time": 2693.9922
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3173.9708,
+    "loading_time": 634.7942,
+    "preprocessing_time": 952.1913,
+    "execution_time": 1586.9854
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 97824.258,
+    "loading_time": 19564.8516,
+    "preprocessing_time": 29347.2774,
+    "execution_time": 48912.129
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 25917.3824,
+    "loading_time": 5183.4765,
+    "preprocessing_time": 7775.2147,
+    "execution_time": 12958.6912
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 10048.9674,
+    "loading_time": 2009.7935,
+    "preprocessing_time": 3014.6902,
+    "execution_time": 5024.4837
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_small",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5774.456,
+    "loading_time": 1154.8912,
+    "preprocessing_time": 1732.3368,
+    "execution_time": 2887.228
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 28.5261,
+    "loading_time": 5.7052,
+    "preprocessing_time": 8.5578,
+    "execution_time": 14.263
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 8.0235,
+    "loading_time": 1.6047,
+    "preprocessing_time": 2.407,
+    "execution_time": 4.0117
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3.0621,
+    "loading_time": 0.6124,
+    "preprocessing_time": 0.9186,
+    "execution_time": 1.5311
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000,
+    "columns": 5,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1.3294,
+    "loading_time": 0.2659,
+    "preprocessing_time": 0.3988,
+    "execution_time": 0.6647
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 280.9984,
+    "loading_time": 56.1997,
+    "preprocessing_time": 84.2995,
+    "execution_time": 140.4992
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 86.3402,
+    "loading_time": 17.268,
+    "preprocessing_time": 25.902,
+    "execution_time": 43.1701
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 28.1126,
+    "loading_time": 5.6225,
+    "preprocessing_time": 8.4338,
+    "execution_time": 14.0563
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 5000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 14.85,
+    "loading_time": 2.97,
+    "preprocessing_time": 4.455,
+    "execution_time": 7.425
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 599.3281,
+    "loading_time": 119.8656,
+    "preprocessing_time": 179.7984,
+    "execution_time": 299.6641
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 163.6914,
+    "loading_time": 32.7383,
+    "preprocessing_time": 49.1074,
+    "execution_time": 81.8457
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 56.4899,
+    "loading_time": 11.298,
+    "preprocessing_time": 16.947,
+    "execution_time": 28.2449
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 10000,
+    "columns": 10,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 25.0625,
+    "loading_time": 5.0125,
+    "preprocessing_time": 7.5188,
+    "execution_time": 12.5313
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5783.0747,
+    "loading_time": 1156.6149,
+    "preprocessing_time": 1734.9224,
+    "execution_time": 2891.5373
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1612.5409,
+    "loading_time": 322.5082,
+    "preprocessing_time": 483.7623,
+    "execution_time": 806.2705
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 629.379,
+    "loading_time": 125.8758,
+    "preprocessing_time": 188.8137,
+    "execution_time": 314.6895
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 50000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 306.3627,
+    "loading_time": 61.2725,
+    "preprocessing_time": 91.9088,
+    "execution_time": 153.1814
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 10158.2153,
+    "loading_time": 2031.6431,
+    "preprocessing_time": 3047.4646,
+    "execution_time": 5079.1077
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 3077.5106,
+    "loading_time": 615.5021,
+    "preprocessing_time": 923.2532,
+    "execution_time": 1538.7553
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 1322.2163,
+    "loading_time": 264.4433,
+    "preprocessing_time": 396.6649,
+    "execution_time": 661.1082
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 100000,
+    "columns": 20,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 605.9117,
+    "loading_time": 121.1823,
+    "preprocessing_time": 181.7735,
+    "execution_time": 302.9559
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 87268.853,
+    "loading_time": 17453.7706,
+    "preprocessing_time": 26180.6559,
+    "execution_time": 43634.4265
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 23273.2392,
+    "loading_time": 4654.6478,
+    "preprocessing_time": 6981.9718,
+    "execution_time": 11636.6196
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 9064.4942,
+    "loading_time": 1812.8988,
+    "preprocessing_time": 2719.3482,
+    "execution_time": 4532.2471
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 500000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 5075.9551,
+    "loading_time": 1015.191,
+    "preprocessing_time": 1522.7865,
+    "execution_time": 2537.9776
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 204641.2658,
+    "loading_time": 40928.2532,
+    "preprocessing_time": 61392.3798,
+    "execution_time": 102320.6329
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 47818.7961,
+    "loading_time": 9563.7592,
+    "preprocessing_time": 14345.6388,
+    "execution_time": 23909.398
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 15459.645,
+    "loading_time": 3091.929,
+    "preprocessing_time": 4637.8935,
+    "execution_time": 7729.8225
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 30,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 10242.4844,
+    "loading_time": 2048.4969,
+    "preprocessing_time": 3072.7453,
+    "execution_time": 5121.2422
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "low",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 329285.8307,
+    "loading_time": 65857.1661,
+    "preprocessing_time": 98785.7492,
+    "execution_time": 164642.9153
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "medium",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 85411.5416,
+    "loading_time": 17082.3083,
+    "preprocessing_time": 25623.4625,
+    "execution_time": 42705.7708
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "high",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 30428.0108,
+    "loading_time": 6085.6022,
+    "preprocessing_time": 9128.4032,
+    "execution_time": 15214.0054
+  },
+  {
+    "source": "scitime_inspired",
+    "timestamp": "2026-01-22T16:43:53.242944",
+    "rows": 1000000,
+    "columns": 50,
+    "method": "clu_kmeans_large",
+    "tool": "python",
+    "hardware": "ultra",
+    "data_type_ratio": {
+      "numeric": 0.7,
+      "categorical": 0.2,
+      "text": 0.1
+    },
+    "elapsed_time_seconds": 13687.5285,
+    "loading_time": 2737.5057,
+    "preprocessing_time": 4106.2586,
+    "execution_time": 6843.7643
+  }
+]
