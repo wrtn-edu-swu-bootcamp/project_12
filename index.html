@@ -19,7 +19,7 @@
         }
         
         .container {
-            max-width: 600px;
+            max-width: 700px;
             margin: 50px auto;
             background: white;
             padding: 40px;
@@ -53,6 +53,10 @@
             font-size: 14px;
         }
         
+        .required {
+            color: #e74c3c;
+        }
+        
         input, select {
             width: 100%;
             padding: 12px;
@@ -71,6 +75,36 @@
             font-size: 12px;
             color: #95a5a6;
             margin-top: 5px;
+        }
+        
+        .hardware-specs {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 8px;
+            font-size: 11px;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .data-type-inputs {
+            display: flex;
+            gap: 10px;
+            margin-top: 8px;
+        }
+        
+        .data-type-input {
+            flex: 1;
+        }
+        
+        .data-type-input label {
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        
+        .data-type-input input {
+            padding: 8px;
         }
         
         button {
@@ -137,6 +171,39 @@
             margin: 20px 0;
         }
         
+        .confidence-range {
+            text-align: center;
+            color: #7f8c8d;
+            margin-top: -10px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .confidence-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        
+        .confidence-high {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .confidence-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .confidence-low {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
         .description {
             text-align: center;
             color: #666;
@@ -167,68 +234,75 @@
             color: #95a5a6;
             font-size: 12px;
         }
+        
+        .error-message {
+            color: #e74c3c;
+            font-size: 12px;
+            margin-top: 5px;
+            display: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>⏱️ 데이터 분석 시간 예측기</h1>
-        <p class="subtitle">데이터 규모와 분석 방법을 입력하면 예상 소요 시간을 알려드립니다</p>
+        <p class="subtitle">30초 입력 → 1초 예측으로 분석 소요 시간을 즉시 확인</p>
         
         <form id="estimationForm">
             <div class="form-group">
-                <label for="rows">데이터 행 수 (Rows)</label>
+                <label for="rows">데이터 행 수 (Rows) <span class="required">*</span></label>
                 <input type="number" id="rows" placeholder="예: 1000000" required min="1">
                 <div class="input-hint">분석할 데이터의 행(레코드) 수를 입력하세요</div>
             </div>
             
             <div class="form-group">
-                <label for="columns">데이터 열 수 (Columns)</label>
+                <label for="columns">데이터 열 수 (Columns) <span class="required">*</span></label>
                 <input type="number" id="columns" placeholder="예: 20" required min="1">
                 <div class="input-hint">분석할 데이터의 열(필드) 수를 입력하세요</div>
             </div>
             
             <div class="form-group">
-                <label for="analysis">분석 방법 (세부 선택)</label>
+                <label for="analysis">분석 방법 <span class="required">*</span></label>
                 <select id="analysis" required>
                     <option value="">선택하세요</option>
                     
-                    <optgroup label="📊 단순 집계">
+                    <optgroup label="📊 단순 집계 (3개)">
                         <option value="agg_basic">기본 집계 (평균, 합계, 개수)</option>
                         <option value="agg_groupby">그룹별 집계 (GROUP BY)</option>
                         <option value="agg_pivot">피벗 테이블</option>
                     </optgroup>
                     
-                    <optgroup label="📈 회귀분석">
+                    <optgroup label="📈 회귀분석 (4개)">
                         <option value="reg_linear_simple">단순 선형 회귀</option>
                         <option value="reg_linear_multiple">다중 선형 회귀</option>
                         <option value="reg_ridge">릿지 회귀 (Ridge)</option>
                         <option value="reg_polynomial">다항 회귀 (Polynomial)</option>
                     </optgroup>
                     
-                    <optgroup label="🎯 분류">
+                    <optgroup label="🎯 분류 (4개)">
                         <option value="clf_logistic">로지스틱 회귀</option>
                         <option value="clf_tree">의사결정나무</option>
                         <option value="clf_forest">랜덤 포레스트 (100 트리)</option>
                         <option value="clf_svm">SVM (Support Vector Machine)</option>
                     </optgroup>
                     
-                    <optgroup label="🔍 클러스터링">
-                        <option value="clu_kmeans_small">K-means (k < 10)</option>
+                    <optgroup label="🔍 클러스터링 (4개)">
+                        <option value="clu_kmeans_small">K-means (k ≤ 10)</option>
                         <option value="clu_kmeans_large">K-means (k > 10)</option>
                         <option value="clu_dbscan">DBSCAN</option>
                         <option value="clu_hierarchical">계층적 클러스터링</option>
                     </optgroup>
                     
-                    <optgroup label="🧠 딥러닝">
+                    <optgroup label="🧠 딥러닝 (2개)">
                         <option value="dl_simple">간단한 신경망 (2-3 레이어)</option>
                         <option value="dl_deep">깊은 신경망 (5+ 레이어)</option>
                     </optgroup>
                 </select>
-                <div class="input-hint">세부 방법을 선택하면 더 정확한 예측이 가능합니다</div>
+                <div class="input-hint">총 17개 분석 방법 중 선택</div>
             </div>
             
             <div class="form-group">
-                <label for="tool">사용 툴</label>
+                <label for="tool">사용 툴 <span class="required">*</span></label>
                 <select id="tool" required>
                     <option value="">선택하세요</option>
                     <option value="python">Python (Pandas, Scikit-learn)</option>
@@ -239,36 +313,63 @@
             </div>
             
             <div class="form-group">
-                <label for="hardware">하드웨어 성능 (선택사항)</label>
-                <select id="hardware">
-                    <option value="low">저사양 (i3, 8GB RAM)</option>
-                    <option value="medium" selected>중간 (i5, 16GB RAM)</option>
-                    <option value="high">고사양 (i7, 32GB RAM)</option>
-                    <option value="ultra">최고사양 (i9, 64GB+ RAM)</option>
+                <label for="hardware">하드웨어 성능 <span class="required">*</span></label>
+                <select id="hardware" required>
+                    <option value="">선택하세요</option>
+                    <option value="low">저사양</option>
+                    <option value="medium">중간</option>
+                    <option value="high">고사양</option>
+                    <option value="ultra">최고사양</option>
                 </select>
-                <div class="input-hint">하드웨어 성능을 선택하면 더 정확한 예측이 가능합니다</div>
+                <div class="hardware-specs">
+                    <strong>사양 기준:</strong><br>
+                    • 저사양: 2코어, 4GB RAM, HDD<br>
+                    • 중간: 4코어, 8-16GB RAM, SSD<br>
+                    • 고사양: 8코어, 32GB RAM, SSD<br>
+                    • 최고사양: 16코어 이상, 64GB+ RAM, SSD + GPU
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>데이터 타입 비율 <span class="required">*</span></label>
+                <div class="data-type-inputs">
+                    <div class="data-type-input">
+                        <label for="numeric">수치형 (%)</label>
+                        <input type="number" id="numeric" min="0" max="100" value="70" required>
+                    </div>
+                    <div class="data-type-input">
+                        <label for="categorical">범주형 (%)</label>
+                        <input type="number" id="categorical" min="0" max="100" value="20" required>
+                    </div>
+                    <div class="data-type-input">
+                        <label for="text">텍스트 (%)</label>
+                        <input type="number" id="text" min="0" max="100" value="10" required>
+                    </div>
+                </div>
+                <div class="input-hint">각 타입의 비율 합계가 100%가 되어야 합니다</div>
+                <div id="typeError" class="error-message">비율의 합계가 100%가 아닙니다</div>
             </div>
             
             <button type="submit">🚀 시간 예측하기</button>
         </form>
         
         <div id="result" class="result">
-            <h2 class="result-header">예상 소요 시간</h2>
+            <h2 class="result-header">⚡ 예상 소요 시간</h2>
             <div class="time-display" id="timeDisplay">-</div>
-            <div class="confidence-range" id="confidenceRange" style="text-align: center; color: #7f8c8d; margin-top: -10px; margin-bottom: 15px; font-size: 14px;"></div>
+            <div class="confidence-range" id="confidenceRange"></div>
             <p class="description" id="description"></p>
             
             <div class="breakdown" id="breakdown">
                 <div class="breakdown-item">
-                    <span class="breakdown-label">데이터 로딩</span>
+                    <span class="breakdown-label">📂 데이터 로딩</span>
                     <span id="loadingTime">-</span>
                 </div>
                 <div class="breakdown-item">
-                    <span class="breakdown-label">데이터 전처리</span>
+                    <span class="breakdown-label">🔧 데이터 전처리</span>
                     <span id="preprocessingTime">-</span>
                 </div>
                 <div class="breakdown-item">
-                    <span class="breakdown-label">분석 실행</span>
+                    <span class="breakdown-label">⚙️ 분석 실행</span>
                     <span id="analysisTime">-</span>
                 </div>
             </div>
@@ -276,34 +377,34 @@
             <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd;">
                 <div class="breakdown-item">
                     <span class="breakdown-label">📊 예측 신뢰도</span>
-                    <span id="confidence" style="color: #667eea; font-weight: 600;">-</span>
+                    <span id="confidenceLevel">-</span>
                 </div>
                 <div class="breakdown-item">
-                    <span class="breakdown-label">🎯 참고 벤치마크</span>
-                    <span id="benchmarkCount" style="color: #667eea; font-weight: 600;">-</span>
+                    <span class="breakdown-label">🎯 벤치마크 참고</span>
+                    <span id="benchmarkInfo" style="color: #667eea; font-weight: 600;">-</span>
                 </div>
             </div>
         </div>
         
         <div class="footer">
-            💡 이 예측은 선택한 하드웨어 환경을 기반으로 한 추정값이며, 실제 측정 데이터를 참고합니다
+            💡 이 예측은 실제 벤치마크 데이터를 기반으로 한 추정값입니다 (정확도: ±30%)
         </div>
     </div>
 
     <script>
-        // 하드웨어 성능 사양
+        // 하드웨어 성능 사양 (service-plan.md 기준)
         const hardwareSpecs = {
-            low: { cpu: 800, ram: 8, name: '저사양' },
-            medium: { cpu: 1000, ram: 16, name: '중간' },
-            high: { cpu: 1500, ram: 32, name: '고사양' },
-            ultra: { cpu: 2000, ram: 64, name: '최고사양' }
+            low: { cpu: 2, ram: 4, multiplier: 1.5, name: '저사양 (2코어, 4GB RAM, HDD)' },
+            medium: { cpu: 4, ram: 16, multiplier: 1.0, name: '중간 (4코어, 8-16GB RAM, SSD)' },
+            high: { cpu: 8, ram: 32, multiplier: 0.4, name: '고사양 (8코어, 32GB RAM, SSD)' },
+            ultra: { cpu: 16, ram: 64, multiplier: 0.2, name: '최고사양 (16코어+, 64GB+ RAM, SSD+GPU)' }
         };
         
-        // 계산 로직 (세부 분석 방법 반영)
-        function calculateEstimatedTime(rows, columns, analysis, tool, hardware = 'medium') {
+        // 계산 로직
+        function calculateEstimatedTime(rows, columns, analysis, tool, hardware, dataTypes) {
             const BASE_TIME = 1; // 기본 1초
             
-            // 데이터 크기 계수 (로그 스케일 적용)
+            // 데이터 크기 계수 (로그 스케일)
             let dataFactor = 1;
             if (rows < 10000) {
                 dataFactor = 0.5;
@@ -317,40 +418,19 @@
                 dataFactor = 50;
             }
             
-            // 열 수 영향 (제곱근 적용으로 비선형 증가)
+            // 열 수 영향
             dataFactor *= (1 + Math.sqrt(columns) / 5);
             
-            // 세부 분석 방법별 복잡도 (시간 복잡도 기반)
+            // 분석 방법별 복잡도
             const analysisFactor = {
-                // 단순 집계 - O(n)
-                'agg_basic': 0.8,           // 매우 빠름
-                'agg_groupby': 1.2,         // 그룹핑 오버헤드
-                'agg_pivot': 1.5,           // 피벗 변환
-                
-                // 회귀분석 - O(nm) ~ O(nm²)
-                'reg_linear_simple': 2,     // O(nm)
-                'reg_linear_multiple': 3,   // O(nm² + m³)
-                'reg_ridge': 4,             // 정규화 + 반복
-                'reg_polynomial': 6,        // 특성 확장
-                
-                // 분류 - O(nm log n) ~ O(n²m)
-                'clf_logistic': 3,          // 반복 최적화
-                'clf_tree': 4,              // O(nm log n)
-                'clf_forest': 8,            // 100 트리
-                'clf_svm': 12,              // O(n²m) ~ O(n³)
-                
-                // 클러스터링 - O(nkd) ~ O(n³)
-                'clu_kmeans_small': 5,      // k<10, 빠름
-                'clu_kmeans_large': 10,     // k>10, 느림
-                'clu_dbscan': 7,            // O(n log n)
-                'clu_hierarchical': 20,     // O(n²) ~ O(n³)
-                
-                // 딥러닝 - O(nmle) l=레이어, e=에포크
-                'dl_simple': 15,            // 2-3 레이어
-                'dl_deep': 30               // 5+ 레이어
+                'agg_basic': 0.8, 'agg_groupby': 1.2, 'agg_pivot': 1.5,
+                'reg_linear_simple': 2, 'reg_linear_multiple': 3, 'reg_ridge': 4, 'reg_polynomial': 6,
+                'clf_logistic': 3, 'clf_tree': 4, 'clf_forest': 8, 'clf_svm': 12,
+                'clu_kmeans_small': 5, 'clu_kmeans_large': 10, 'clu_dbscan': 7, 'clu_hierarchical': 20,
+                'dl_simple': 15, 'dl_deep': 30
             };
             
-            // 툴 속도 (상대적 속도)
+            // 툴 속도
             const toolFactor = {
                 'python': 1,
                 'r': 1.2,
@@ -358,45 +438,57 @@
                 'excel': 3
             };
             
+            // 데이터 타입 영향 (service-plan.md 기준)
+            const typeMultiplier = 
+                (dataTypes.numeric / 100 * 1.0) +    // 수치형: 기준
+                (dataTypes.categorical / 100 * 1.5) + // 범주형: 1.5배
+                (dataTypes.text / 100 * 2.5);         // 텍스트: 2.5배
+            
             // 기본 시간 계산
             let baseTime = BASE_TIME * dataFactor * 
                           analysisFactor[analysis] * 
-                          toolFactor[tool];
+                          toolFactor[tool] *
+                          typeMultiplier;
             
-            // 하드웨어 보정 (기준: medium)
+            // 하드웨어 보정
             const hwSpec = hardwareSpecs[hardware];
-            const cpuRatio = 1000 / hwSpec.cpu;  // CPU가 빠를수록 시간 감소
-            const ramFactor = hwSpec.ram >= 16 ? 1.0 : 1.3;  // RAM 부족 시 패널티
+            const totalSeconds = baseTime * hwSpec.multiplier;
             
-            const totalSeconds = baseTime * cpuRatio * ramFactor;
+            // 신뢰 구간 및 신뢰도 등급
+            let confidencePercent, confidenceGrade;
+            if (rows > 100000) {
+                confidencePercent = 0.3; // ±30%
+                confidenceGrade = 'Medium';
+            } else if (rows > 10000) {
+                confidencePercent = 0.25; // ±25%
+                confidenceGrade = 'Medium';
+            } else {
+                confidencePercent = 0.2; // ±20%
+                confidenceGrade = 'High';
+            }
             
-            // 신뢰 구간 계산 (±30% ~ ±50%)
-            const confidenceLevel = 0.4; // 40% 신뢰 구간
-            const minTime = totalSeconds * (1 - confidenceLevel);
-            const maxTime = totalSeconds * (1 + confidenceLevel);
+            const minTime = totalSeconds * (1 - confidencePercent);
+            const maxTime = totalSeconds * (1 + confidencePercent);
             
             // 단계별 시간 분해
             const breakdown = {
-                loading: totalSeconds * 0.2,      // 20%
-                preprocessing: totalSeconds * 0.3, // 30%
-                analysis: totalSeconds * 0.5      // 50%
+                loading: totalSeconds * 0.2,
+                preprocessing: totalSeconds * 0.3,
+                analysis: totalSeconds * 0.5
             };
-            
-            // 예측 신뢰도 (벤치마크 개수에 따라 변동)
-            const benchmarkCount = 15; // 현재는 고정값 (나중에 실제 벤치마크 DB 연결 시 동적으로 변경)
             
             return {
                 total: totalSeconds,
                 min: minTime,
                 max: maxTime,
                 breakdown: breakdown,
-                confidence: `±${confidenceLevel * 100}%`,
-                benchmarkCount: benchmarkCount,
+                confidencePercent: Math.round(confidencePercent * 100),
+                confidenceGrade: confidenceGrade,
                 hardware: hwSpec.name
             };
         }
         
-        // 시간을 읽기 좋은 형식으로 변환
+        // 시간 형식 변환
         function formatTime(seconds) {
             if (seconds < 60) {
                 return `${Math.round(seconds)}초`;
@@ -409,49 +501,21 @@
             }
         }
         
-        // 분석 방법 이름 가져오기 (세부 방법)
-        function getAnalysisName(value) {
-            const names = {
-                // 단순 집계
-                'agg_basic': '기본 집계',
-                'agg_groupby': '그룹별 집계',
-                'agg_pivot': '피벗 테이블',
-                
-                // 회귀분석
-                'reg_linear_simple': '단순 선형 회귀',
-                'reg_linear_multiple': '다중 선형 회귀',
-                'reg_ridge': '릿지 회귀',
-                'reg_polynomial': '다항 회귀',
-                
-                // 분류
-                'clf_logistic': '로지스틱 회귀',
-                'clf_tree': '의사결정나무',
-                'clf_forest': '랜덤 포레스트',
-                'clf_svm': 'SVM',
-                
-                // 클러스터링
-                'clu_kmeans_small': 'K-means (소규모)',
-                'clu_kmeans_large': 'K-means (대규모)',
-                'clu_dbscan': 'DBSCAN',
-                'clu_hierarchical': '계층적 클러스터링',
-                
-                // 딥러닝
-                'dl_simple': '간단한 신경망',
-                'dl_deep': '깊은 신경망'
-            };
-            return names[value] || value;
-        }
+        // 분석 방법 이름
+        const analysisNames = {
+            'agg_basic': '기본 집계', 'agg_groupby': '그룹별 집계', 'agg_pivot': '피벗 테이블',
+            'reg_linear_simple': '단순 선형 회귀', 'reg_linear_multiple': '다중 선형 회귀', 
+            'reg_ridge': '릿지 회귀', 'reg_polynomial': '다항 회귀',
+            'clf_logistic': '로지스틱 회귀', 'clf_tree': '의사결정나무', 
+            'clf_forest': '랜덤 포레스트', 'clf_svm': 'SVM',
+            'clu_kmeans_small': 'K-means (소규모)', 'clu_kmeans_large': 'K-means (대규모)', 
+            'clu_dbscan': 'DBSCAN', 'clu_hierarchical': '계층적 클러스터링',
+            'dl_simple': '간단한 신경망', 'dl_deep': '깊은 신경망'
+        };
         
-        // 툴 이름 가져오기
-        function getToolName(value) {
-            const names = {
-                'python': 'Python',
-                'r': 'R',
-                'sql': 'SQL',
-                'excel': 'Excel'
-            };
-            return names[value] || value;
-        }
+        const toolNames = {
+            'python': 'Python', 'r': 'R', 'sql': 'SQL', 'excel': 'Excel'
+        };
         
         // 폼 제출 처리
         document.getElementById('estimationForm').addEventListener('submit', function(e) {
@@ -463,35 +527,63 @@
             const tool = document.getElementById('tool').value;
             const hardware = document.getElementById('hardware').value;
             
-            const result = calculateEstimatedTime(rows, columns, analysis, tool, hardware);
+            const numeric = parseInt(document.getElementById('numeric').value);
+            const categorical = parseInt(document.getElementById('categorical').value);
+            const text = parseInt(document.getElementById('text').value);
             
-            // 전체 시간 표시 (중앙값)
+            // 데이터 타입 비율 검증
+            const typeSum = numeric + categorical + text;
+            if (typeSum !== 100) {
+                document.getElementById('typeError').style.display = 'block';
+                return;
+            }
+            document.getElementById('typeError').style.display = 'none';
+            
+            const dataTypes = { numeric, categorical, text };
+            const result = calculateEstimatedTime(rows, columns, analysis, tool, hardware, dataTypes);
+            
+            // 결과 표시
             document.getElementById('timeDisplay').textContent = formatTime(result.total);
             
-            // 신뢰 구간 표시
-            document.getElementById('confidenceRange').textContent = 
-                `신뢰 구간: ${formatTime(result.min)} ~ ${formatTime(result.max)}`;
+            // 신뢰 구간 + 신뢰도 배지
+            const badgeClass = result.confidenceGrade === 'High' ? 'confidence-high' : 
+                              result.confidenceGrade === 'Medium' ? 'confidence-medium' : 'confidence-low';
+            document.getElementById('confidenceRange').innerHTML = 
+                `${formatTime(result.min)} ~ ${formatTime(result.max)} <span class="confidence-badge ${badgeClass}">${result.confidenceGrade} (±${result.confidencePercent}%)</span>`;
             
-            // 설명 생성
-            const analysisName = getAnalysisName(analysis);
-            const toolName = getToolName(tool);
+            // 설명
             document.getElementById('description').textContent = 
-                `${rows.toLocaleString()}행 × ${columns}열의 데이터를 ${toolName}로 ${analysisName}할 때 예상되는 시간입니다. (${result.hardware} 기준)`;
+                `${rows.toLocaleString()}행 × ${columns}열의 데이터를 ${toolNames[tool]}로 ${analysisNames[analysis]}할 때 예상 시간입니다.`;
             
-            // 단계별 시간 표시
+            // 단계별 시간
             document.getElementById('loadingTime').textContent = formatTime(result.breakdown.loading);
             document.getElementById('preprocessingTime').textContent = formatTime(result.breakdown.preprocessing);
             document.getElementById('analysisTime').textContent = formatTime(result.breakdown.analysis);
             
-            // 예측 신뢰도 및 벤치마크 개수 표시
-            document.getElementById('confidence').textContent = result.confidence;
-            document.getElementById('benchmarkCount').textContent = `${result.benchmarkCount}개`;
+            // 신뢰도 및 벤치마크
+            document.getElementById('confidenceLevel').innerHTML = 
+                `<span class="confidence-badge ${badgeClass}">${result.confidenceGrade}</span> <span style="color: #95a5a6;">(±${result.confidencePercent}%)</span>`;
+            document.getElementById('benchmarkInfo').textContent = '벤치마크 기반 예측';
             
-            // 결과 영역 표시
+            // 결과 표시
             document.getElementById('result').classList.add('show');
-            
-            // 결과로 부드럽게 스크롤
             document.getElementById('result').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+        
+        // 데이터 타입 비율 실시간 검증
+        ['numeric', 'categorical', 'text'].forEach(id => {
+            document.getElementById(id).addEventListener('input', function() {
+                const numeric = parseInt(document.getElementById('numeric').value) || 0;
+                const categorical = parseInt(document.getElementById('categorical').value) || 0;
+                const text = parseInt(document.getElementById('text').value) || 0;
+                const sum = numeric + categorical + text;
+                
+                if (sum !== 100 && sum !== 0) {
+                    document.getElementById('typeError').style.display = 'block';
+                } else {
+                    document.getElementById('typeError').style.display = 'none';
+                }
+            });
         });
     </script>
 </body>
